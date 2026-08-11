@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumyojyoti Deb - Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Soumyojyoti Deb, Software Engineer with expertise in ML deployment, React, and Spring Boot.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar hidden">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Soumyojyoti Deb</a>
+            <div class="nav-links">
+                <a href="#summary">Summary</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                <!-- SVG Icon for theme toggle -->
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+                <svg id="sun-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero hidden">
+            <div class="hero-content">
+                <h1 class="fade-in">Soumyojyoti Deb</h1>
+                <h2 class="slide-up">Software Engineer</h2>
+                <!-- <p class="slide-up delay-1">Optimizing machine learning deployment. Full-stack development.</p> -->
+            </div>
+        </section>
+
+        <section id="summary" class="summary hidden">
+            <div class="container">
+                <h3 class="section-title fade-in">Summary</h3>
+                <p class="slide-up">Software Engineer with hands-on experience in machine learning model deployment and
+                    inference optimization, with practical experience using PyTorch, ONNX, and ONNX Runtime. Built and
+                    evaluated an end-to-end model deployment pipeline involving PyTorch-to-ONNX export, accuracy
+                    validation, benchmarking, and INT8 quantization. Experienced in analyzing inference latency, memory
+                    usage, numerical differences, and accuracy trade-offs during deployment. Seeking to apply this
+                    experience to production ML inference and model optimization across hardware platforms and runtimes.
+                </p>
+            </div>
+        </section>
+
+        <section id="experience" class="experience hidden">
+            <div class="container">
+                <h3 class="section-title fade-in">Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item slide-up">
+                        <div class="timeline-header">
+                            <h4>Jr. Software Engineer <span class="badge">Full-time</span></h4>
+                            <span class="date">Jul 2025 - Present</span>
+                        </div>
+                        <h5>Cognizant <span class="location">Hybrid • Kolkata, West Bengal</span></h5>
+                        <ul>
+                            <li>Worked on retail and consumer-domain applications for a leading food-service and
+                                restaurant-industry client.</li>
+                            <li>Contributed to frontend development using React.js, implementing UI enhancements, bug
+                                fixes, and feature updates in accordance with project requirements.</li>
+                            <li>Collaborated with cross-functional teams in an Agile environment to support application
+                                development, testing, and maintenance activities.</li>
+                            <li>Integrated frontend components with REST APIs and participated in troubleshooting and
+                                debugging application issues.</li>
+                            <li>Completed professional training in Generative AI, Prompt Engineering, and Agentic AI
+                                concepts, gaining exposure to LLM-based applications, prompt optimization techniques,
+                                and AI workflow design.</li>
+                        </ul>
+                        <p class="tech-used"><strong>Technologies:</strong> React js, Spring Boot, MySQL, Google Cloud,
+                            Generative AI, Java, REST API, Agentic AI</p>
+                    </div>
+
+                    <div class="timeline-item slide-up">
+                        <div class="timeline-header">
+                            <h4>Intern <span class="badge">Internship</span></h4>
+                            <span class="date">Dec 2023 - Feb 2024</span>
+                        </div>
+                        <h5>Acmegrade <span class="location">Remote</span></h5>
+                        <ul>
+                            <li>Explored and worked with core cloud services across AWS, Microsoft Azure, and Google
+                                Cloud Platform (GCP).</li>
+                            <li>Performed hands-on labs involving cloud infrastructure provisioning, virtual machines,
+                                storage services, networking, and identity/access management.</li>
+                        </ul>
+                        <p class="tech-used"><strong>Technologies:</strong> Amazon Web Services, Microsoft Azure, Google
+                            Cloud</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects hidden">
+            <div class="container">
+                <h3 class="section-title fade-in">Projects</h3>
+                <div class="grid">
+                    <div class="card slide-up">
+                        <h4>Model Deployment Pipeline <a href="https://github.com" target="_blank" class="github-link"
+                                aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg></a></h4>
+                        <ul>
+                            <li>Built an end-to-end YOLOv8n deployment pipeline, exporting PyTorch to ONNX and deploying
+                                inference with ONNX Runtime.</li>
+                            <li>Implemented custom preprocessing, postprocessing, and PyTorch-vs-ONNX validation,
+                                achieving 0.999965 IoU with negligible prediction differences.</li>
+                            <li>Benchmarked latency, throughput, P95 latency, and memory across PyTorch, ONNX FP32, and
+                                INT8 runtimes.</li>
+                            <li>Achieved 82% lower memory usage with ONNX FP32 compared to PyTorch and analyzed runtime
+                                performance trade-offs.</li>
+                            <li>Implemented INT8 post-training quantization and investigated accuracy degradation caused
+                                by quantization of YOLOv8 detection heads.</li>
+                        </ul>
+                        <p class="tech-used"><strong>Tools:</strong> Python, PyTorch, YOLOv8n, ONNX, ONNX Runtime,
+                            OpenCV, NumPy, Pandas, psutil, Netron</p>
+                    </div>
+
+                    <div class="card slide-up">
+                        <h4>Customer Relationship Management (CRM) System</h4>
+                        <span class="role">Developer</span>
+                        <ul>
+                            <li>Designed and developed a full-stack CRM application for managing customer information
+                                and supporting customer relationship workflows.</li>
+                            <li>Built responsive frontend interfaces using React.js and implemented backend services
+                                using Spring Boot.</li>
+                            <li>Designed and managed relational database schemas in MySQL for storing and retrieving
+                                customer data efficiently.</li>
+                            <li>Developed REST APIs to enable seamless communication between frontend and backend
+                                components.</li>
+                            <li>Implemented CRUD operations, form validation, and data management functionalities to
+                                streamline customer record handling.</li>
+                        </ul>
+                        <p class="tech-used"><strong>Tools:</strong> React, Node.js, Spring Boot, MySQL, Github, REST
+                            APIs, Tailwind CSS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills hidden">
+            <div class="container">
+                <h3 class="section-title fade-in">Skills</h3>
+                <div class="skills-grid slide-up">
+                    <div class="skill-category">
+                        <h4>Full Stack Development</h4>
+                        <p>React js, Vue js, Next js, Flutter, FastAPI, Spring Boot, MySQL, PostgreSQL, Firebase, Git,
+                            GitHub, GitHub Actions</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Cloud</h4>
+                        <p>AWS, GCP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education hidden">
+            <div class="container">
+                <h3 class="section-title fade-in">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item slide-up">
+                        <div class="timeline-header">
+                            <h4>B.Tech ECE</h4>
+                            <span class="date">Jun 2021 - Jul 2025</span>
+                        </div>
+                        <h5>VIT Vellore</h5>
+                    </div>
+                    <div class="timeline-item slide-up">
+                        <div class="timeline-header">
+                            <h4>Class 12 ISC Board</h4>
+                            <span class="date">Jul 2021</span>
+                        </div>
+                        <h5>DPS Megacity</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact hidden">
+            <div class="container">
+                <h3 class="section-title fade-in">Contact</h3>
+                <div class="contact-info slide-up" style="text-align: center;">
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Phone: 9876543210
+                    </p>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 1rem;">Email: <a
+                            href="mailto:name@gmail.com">name@gmail.com</a></p>
+                    <div class="social-links" style="justify-content: center; margin-top: 1.5rem;">
+                        <a href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" target="_blank" aria-label="GitHub">GitHub</a>
+                        <span>Kolkata</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
